@@ -1,3 +1,14 @@
-"script":{
-	"start":"json-server --watch db.json --port 10000"
+{
+  "name": "climate-pledge-microsite",
+  "version": "1.0.0",
+  "description": "Climate pledge microsite using JSON Server",
+  "scripts": {
+    "start": "json-server --watch db.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": "22.x"
+  }
 }
