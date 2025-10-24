@@ -9,7 +9,6 @@ https://climate-action-pledge.onrender.com/
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Functionality & Logic](#functionality--logic)
 - [Installation](#installation)
 
@@ -34,18 +33,6 @@ https://climate-action-pledge.onrender.com/
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap 5
 - **Libraries:** html2canvas (for certificate download)
 - **Backend:** JSON Server (mock API)
-
-## Project Structure
-project/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── index.js
-├── image/
-│   └── earth.png
-├── db.json
-└── README.md
 
 ---
 
