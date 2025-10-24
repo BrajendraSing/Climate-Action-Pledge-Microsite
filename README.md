@@ -4,7 +4,6 @@ A web-based platform to encourage individuals to take climate action pledges, tr
 
 # Live Project Link
 https://climate-action-pledge.onrender.com/
-[Climate Action Pledge App](https://climate-action-pledge.onrender.com/)
 ---
 
 ## Table of Contents
