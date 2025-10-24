@@ -144,7 +144,7 @@ function loadPledgeWall() {
         pledges.forEach((pledge, index) => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <th scope="row">${pledge.id}</th>
+                <th scope="row">${index+1}</th>
                 <td>${pledge.name}</td>
                 <td>${pledge.date}</td>
                 <td>${pledge.state}</td>
