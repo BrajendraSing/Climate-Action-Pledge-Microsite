@@ -1,3 +1,6 @@
+const API_URL_STATE = 'https://climate-action-pledge-microsite.onrender.com/states';
+const API_URL_PLEDGES = 'https://climate-action-pledge-microsite.onrender.com/pledges'
+
 // Smooth scroll to pledge form
 document.querySelector(".btn-pledge").addEventListener("click", () => {
     const form = document.querySelector("#pledge-form");
@@ -8,7 +11,7 @@ document.querySelector(".btn-pledge").addEventListener("click", () => {
 
 // Loading the states from the server
 function loadStates() {
-    fetch('http://localhost:3001/states', {
+    fetch(API_URL_STATE, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -90,7 +93,7 @@ async function handleForm(event) {
 
     // Submit pledge to server
     try {
-        const response = await fetch('http://localhost:3001/pledges', {
+        const response = await fetch(API_URL_PLEDGES, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(pledgeData)
@@ -132,7 +135,7 @@ document.getElementById('downloadCert').addEventListener('click', function() {
 
 // Load Public Pledge Wall Data
 function loadPledgeWall() {
-    fetch('http://localhost:3001/pledges', {
+    fetch(API_URL_PLEDGES, {
         method: 'GET',  }
     ).then(response => response.json())
     .then(pledges => {
@@ -156,7 +159,7 @@ function loadPledgeWall() {
 
 // Live KPIs Data
 function loadKPIs() {
-    fetch('http://localhost:3001/pledges', {
+    fetch(API_URL_PLEDGES, {
         method: 'GET',}
     ).then(response => response.json())
     .then(pledges => {
