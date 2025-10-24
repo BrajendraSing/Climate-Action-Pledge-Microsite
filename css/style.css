@@ -51,6 +51,15 @@
     border:2px solid #4caf50;
 }
 
+.cert-title{
+    font-size: 35px;
+}
+
+.cert-flex-1 img{
+    width: 120px;
+    height: 120px;
+}
+
 .cert-flex-1{
     flex:1; 
     text-align:center;
@@ -70,5 +79,17 @@
 @media screen and (max-width: 600px) {
     .live-kpis{
         text-align: center;
-    }    
+    }  
+    .cert-flex-1 img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .cert-title{
+        font-size: 20px;
+    }
+
+    .cert-body-style{
+        flex-direction: column;
+    }
 }
