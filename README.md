@@ -35,17 +35,15 @@ A web-based platform to encourage individuals to take climate action pledges, tr
 
 ## Project Structure
 project/
-│
-├─ index.html
-├─ css/
-│ └─ style.css 
-├─ js/
-│ └─ index.js 
-├─ image/
-│ └─ earth.png  
-├─ db.json
-└─ README.md
-
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── index.js
+├── image/
+│   └── earth.png
+├── db.json
+└── README.md
 
 ---
 
