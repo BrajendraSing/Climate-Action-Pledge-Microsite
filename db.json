@@ -1,0 +1,72 @@
+{
+  "pledges": [
+    {
+      "id": "6a08",
+      "name": "testing",
+      "email": "testing@gmail.com",
+      "mobile": "4534345",
+      "state": "Manipur",
+      "profile": "student",
+      "commitments": [
+        "Avoid single-use plastics",
+        "Carry reusable bags and bottles",
+        "Segregate and recycle household waste",
+        "Turn off lights and appliances when not in use",
+        "Use natural light and ventilation whenever possible",
+        "Prefer energy-efficient devices",
+        "Plant trees regularly",
+        "Avoid littering in natural spaces",
+        "Conserve water in daily activities"
+      ],
+      "date": "2025-10-24"
+    },
+    {
+      "id": "786d",
+      "name": "testing 2",
+      "email": "testing@gmail.com",
+      "mobile": "978979797",
+      "state": "Karnataka",
+      "profile": "working-professional",
+      "commitments": [
+        "Avoid single-use plastics",
+        "Carry reusable bags and bottles",
+        "Segregate and recycle household waste",
+        "Use natural light and ventilation whenever possible",
+        "Prefer energy-efficient devices",
+        "Plant trees regularly",
+        "Avoid littering in natural spaces"
+      ],
+      "date": "2025-10-24"
+    }
+  ],
+  "states": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ]
+}
